@@ -7,24 +7,47 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Posts
-    url: '#posts'
+  - name: Research
+    url: '#research'
     weight: 20
   - name: Projects
     url: '#projects'
+    weight: 3
+    parent: 'Research'
+  - name: Publications
+    url: '#publications'
+    parent: 'Research'
+    weight: 1
+  - name: Working Papers
+    url: '#publications_selected'
+    parent: 'Research'
+    weight: 2
+  - name: Teaching
+    url: '#teaching'
     weight: 30
+  - name: Miscellaneous
+    url: ''
+    weight: 60
+    identifier: 'misc'
+  - name: Computing
+    url: 'computing'
+    weight: 1
+    parent: 'misc'
+  - name: Research Assistants
+    url: 'research-assistants'
+    weight: 2
+    parent: 'misc'
   - name: Talks
     url: '#talks'
-    weight: 40
-  - name: Publications
-    url: '#featured'
-    weight: 50
-  - name: Contact
-    url: '#contact'
-    weight: 60
+    weight: 3
+    parent: 'misc'
+  - name: Blog
+    url: '#posts'
+    weight: 4
+    parent: 'misc'
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
-#    url: uploads/resume.pdf
+#    url: 'uploads/floswald.pdf'
 #    weight: 70

@@ -7,9 +7,9 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 90
+weight: 20
 
-title: Recent Publications
+title: Publications
 subtitle: ''
 
 content:
@@ -25,7 +25,7 @@ content:
   filters:
     tag: ''
     category: ''
-    publication_type: ''
+    publication_type: '2'
     author: ''
     exclude_featured: true
 design:
@@ -37,6 +37,6 @@ design:
   view: 4
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}}
+{{% /callout %}} -->
