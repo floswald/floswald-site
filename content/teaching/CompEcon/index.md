@@ -5,7 +5,7 @@ draft: false
 image:
   caption: Constrained Optimisation
   focal_point: Left
-summary: PhD Computationl Economics
+summary: PhD Computational Economics
 tags:
 - teaching
 title: CompEcon
@@ -14,9 +14,7 @@ This is a graduate level course in Computational Economics. We cover a series of
 
 ## Materials
 
-* The course syllabus is [available on github](https://github.com/ScPo-CompEcon/Syllabus).
-* Students should look at the [CoursePack website](https://scpo-compecon.github.io/CoursePack/).
-* All material, including homeworks, are collected under our [github org](https://github.com/ScPo-CompEcon).
+* The entire course material is on the website [Numerical Methods](https://floswald.github.io/NumericalMethods/)
 
 ### GPU computing tutorial
 
