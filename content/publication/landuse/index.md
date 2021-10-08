@@ -15,7 +15,7 @@ publication_types: ["3"]
 
 
 image:
-  caption: Reims in 1866 overlaid with 2017 Buildings
+  caption: Reims in 1950 overlaid with 2017 Buildings
   focal_point: Smart
 
 tags:
@@ -29,7 +29,7 @@ links:
     url: "/pdf/landuse-appendix.pdf"
   - name: Paper
     url: "/pdf/landuse-draft.pdf"    
-url_code: "https://github.com/floswald/LandUse.jl"
+url_code: "https://floswald.github.io/LandUse.jl/"
 # url_pdf: "/pdf/landuse-draft.pdf"
 url_slides: "/pdf/landuse-slides.pdf"
 url_video: ""
