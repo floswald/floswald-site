@@ -9,17 +9,16 @@ image:
 tags:
 - teaching
 - covid19
-title: Covid Teaching
+title: Teaching Summary
 ---
 
 
-The COVID-19 pandemic posed new challenges to teachers at all levels. In university teaching, we were relatively lucky because we could rely on new technologies like zoom and others to host virtual classes. In this post I'll review my and my students' experience over the period from September 2020 until December 2021 in this regard. What I have learned is applicable to both online and in-person teaching.
 
 {{< toc >}}
 
 ## Course Subjects
 
-I taught 3 subjects over this period for the department of economics at SciencesPo Paris, as well as the department of economics at Bocconi University (where I'm on sabbatical leave 2021/2022):
+I taught 3 subjects over the recent years for the department of economics at SciencesPo Paris, as well as the department of economics at Bocconi University (where I'm on sabbatical leave 2021/2022):
 
 1. Introduction to Econometrics with `R` (2nd year undergraduate)
 2. Advanced Econometrics with `R`  (3rd year undergraduate)
@@ -94,24 +93,11 @@ The introduction course is taught to second year students. We collect all releva
 
 As one can see from browsing the slides, we try to intersperse each session with several *tasks* after abour 15-20 minutes of time. Those tasks are not evaluated and serve only to make sure that students understand the current concept. We found those tasks to be very important to *immediately* react if a student seems to fall behind on a certain topic. For an example of traditional vs simulation based content, we use no asymptotic theory results to talk about uncertainty in regression estimates, but instead rely on the bootstrap sampling distribution, which we can illustrate effectively in class by having students sample with replacement. This part of our course is based on [moderndive](https://moderndive.com/), which we highly recommend for this purpose.
 
-#### Testimonials 
-
->  Professor Oswald went above and beyond to research and utilise different resources to make the class as engaging as possible (eg virtual economics department and use of a light board). The use of slack was great also.
-
-> Really interest and potentially very useful content learning how to code. Regular quizzes ensured we kept on top of the content and unlimited time for quizzes meant you could take your time and get to grips with the concepts which I loved. Using examples to highlight concepts also made it much more interesting, and the online Sciences Po classroom was one of the coolest things ever. Really enjoyed the modes of assessment it was so interesting getting to do our own topics and experiment with the code and having the midterm as a blueprint was extremely helpful as a starting point to build upon for the final project.
-
->  The course material was clear and fundamental for the course's comprehension. Mr OSWALD was always helpful and available to clear up any miscomprehension. The course was not easy to grasp sometimes but the quizzes ans tasks were helpful.
 
 ### 2. Advanced Econometrics
 
 This course is the natural follow-up to what was taught in the intro part and includes core concepts like Instrumental Variables (explained via Directed Acyclic Graphs), Panel Data, Discrete Outcomes and a short but comprehensive introduction to Machine Learning. The slides are available [on github](https://github.com/ScPoEcon/Advanced-Metrics-slides), and parts of the book above cover material for this course. In general, we follow exactly the same structure with bi-weekly quizzes on moodle and tasks in class. We also use interactive apps to illustrate for instance [ability bias in wage regressions and IV](https://floswald.shinyapps.io/ScPoMetrics-ability-bias/), or the [bias-variance tradeoff](https://floswald.shinyapps.io/bias_variance/), or why the [marginal effects of nonlinear models](https://floswald.shinyapps.io/marginal_effects_of_logit_probit) like Probit and Logit are different from OLS coefficients.
 
-
-#### Testimonials
-
-> This course was really great and a lot of fun. The teacher is great and the content of the course is fascinating. I deeply enjoyed the code part and I'm looking forward to studying more of R and other languages used in computational statistics. This course strengthens my desire to pursue economic studies and certainly has given me the taste for research.
-
-> I think that the way we have been taught economectrics is a very good one in the sense that we were often asked to apply theoretical bases to the practice (during the class tutorials) some 10 minutes after learning about it. I feel like it has been very helpful in understanding something quite complicated. I also appreciated that we did those tutorials in teams so that we could share our experience in R (e.g. different R syntax) and our ideas of how to solve the task. The same counts for the bigger projects - midterm and final. Other than that, the slides and the style of teaching were often funny and clear, with practical examples so that we could fully understand the idea behind the econometric methods. Great class.
 
 <br>
 
@@ -123,13 +109,9 @@ In spring 2021 I taught the course as part of the CIVICA pan-european PhD networ
 
 {{< tweet 1352380924479086599 >}}
 
-### Testimonials
+## Future
 
->  the teacher was very approchable, the communication with him was easy and fast, the instructions were always very clear, the content of the course was interesting and I feel like most students of this master should take it
-
->  The use of online tools was the obvious strength of the course: as a consequence, the e-learning experience was virtually the same as in the classroom.
-
->  Comprehensive explanations, rich varieties of online tools and useful homework. The Prof was very committed to transfer coding skills in different ways.
+I would like to keep some elements from the online teaching era around for when we return to *normal*. For instance, the short videos I produced to explain one single and well-defined concept are of great value. I am hugely inspired by the exceptional work of Grant Sanderson and his project [3blue1brown](https://www.3blue1brown.com/): Short videos with animations are very powerful teaching elements. The student can always go back to them, and view them multiple times over.
 
 
 
