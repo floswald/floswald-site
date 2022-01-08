@@ -56,9 +56,9 @@ Clear and simple communication is key, in normal times and much more so in onlin
 
 {{< figure library="true" src="blog-slack.png" title="Figure 1: Slack Example" id="slack">}}
 
-In general, these are exciting times to try out new environments for teaching, and everything that makes teaching (and learning) more fun and enjoyable should be an option. In November 2020, for example, we used the custom-built [gather.town](https://www.gather.town/) model of the department of economics at SciencesPo in order to do group work in the econometrics course. Students choose different virtual "rooms" to sit in (they have to walk around on screen in a very simple 2D setting), and then talk to each other in a video-conference. We found it works very well for group work.
+In general, these are exciting times to try out new environments for teaching, and everything that makes teaching (and learning) more fun and enjoyable should be an option. In November 2020, for example, we used the custom-built [gather.town](https://www.gather.town/) model of the department of economics at SciencesPo in order to do group work in the econometrics course. Students choose different virtual "rooms" to sit in (they have to walk around on screen in a very simple 2D setting), and then talk to each other in a video-conference. We found it works very well for group work [(link to tweet)](https://twitter.com/FlorianOswald/status/1328660455070511107?s=20).
 
-{{< tweet 1328660455070511107 >}}
+{{< figure library="true" src="blog-tweet1.png" title="Figure 2: Gather Town of the Econ Department [(link to tweet)](https://twitter.com/FlorianOswald/status/1328660455070511107?s=20)" id="gather">}}
 
 
 
@@ -67,9 +67,9 @@ In general, these are exciting times to try out new environments for teaching, a
 
 In online courses, the presentation mode is very important. There is evidence that the attention span in front of a screen is even shorter than in a classroom, hence we face formidable challenges to the traditional 2 hours frontal teaching format. Notice that the need for a full online course only exacerbates those challenges, which exist in normal times as well. 
 
-I have found a simple and low-cost combination of material and tools to be very beneficial for students, [inspired by others](https://twitter.com/lukestein/status/1297306413358866433?s=20). In a Zoom-like environment, one has the option to share different input video streams. Using the open source [Open Broadcaster Software (OBS)](https://obsproject.com/), a simple green background (clotton cloth or custom green screens) and a little bit of time goes a long way from converting the standard "speaker in a little box" view into a more engaging setup where the teacher sits within the content (can be any part of the screen, so pdf viewers as well as a web browser or a command terminal.) For an example see [figure 2](#figure-green).
+I have found a simple and low-cost combination of material and tools to be very beneficial for students, [inspired by others](https://twitter.com/lukestein/status/1297306413358866433?s=20). In a Zoom-like environment, one has the option to share different input video streams. Using the open source [Open Broadcaster Software (OBS)](https://obsproject.com/), a simple green background (clotton cloth or custom green screens) and a little bit of time goes a long way from converting the standard "speaker in a little box" view into a more engaging setup where the teacher sits within the content (can be any part of the screen, so pdf viewers as well as a web browser or a command terminal.) For an example see the figure below.
 
-{{< figure library="true" src="blog-elbow.png" title="Figure 2: In-content view of teacher via OBS and green screen from *Advanced Econometrics* taught at SciencesPo Paris." id="green">}}
+{{< figure library="true" src="blog-elbow.png">}}
 
 <br>
 
@@ -105,9 +105,10 @@ This course is the natural follow-up to what was taught in the intro part and in
 
 My [Computational Economics course](https://floswald.github.io/NumericalMethods/) is following the same philosophy as above, but for a more advanced audience. Motivated mostly by things I would have liked to know when I was a graduate student myself - and had to learn the hard way - the material has grown in a somewhat organic fashion. I try to cover the main tools needed to solve and estimate a modern economic model, so nonlinear optimization with constraints is a big part. As above, many aspects of how different algorithms work can be illustrated with a graphical device, and the new [Pluto.jl](https://github.com/fonsp/Pluto.jl) notebook format is an *excellent* teaching environment to create interactive experiences in a very simple way. We introduce the [`julia`](https://julialang.org/) language for technical computing, and treat applications and problems from a wide array of economics: marco applications (like the [Aiyagari Model](https://floswald.github.io/NumericalMethods/lecture7-dp4/)), or structural micro applications like [estimation of the Rust Bus Model](https://floswald.github.io/NumericalMethods/lecture10/) with different methods. Again, large part of the value added in my opinion is derived from the homeworks, also available on the [course website](https://floswald.github.io/NumericalMethods/). 
 
-In spring 2021 I taught the course as part of the CIVICA pan-european PhD network, with a great group of students from across the continent. 👇
+In spring 2021 I taught the course as part of the CIVICA pan-european PhD network, with a great group of students from across the continent. 👇 [(link to tweet)](https://twitter.com/FlorianOswald/status/1352380924479086599?s=20)
 
-{{< tweet 1352380924479086599 >}}
+{{< figure library="true" src="blog-tweet2.png" >}}
+
 
 ## Future
 

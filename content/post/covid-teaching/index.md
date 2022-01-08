@@ -2,7 +2,7 @@
 categories:
 - teaching
 date: 2021-12-27
-draft: true
+draft: false
 image:
   caption: ''
   focal_point: ''

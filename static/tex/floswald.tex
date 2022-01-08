@@ -1,0 +1,212 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Florian Oswald}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+% \def\footerlink{http://}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = blue,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, macro, urban, labor},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.55\linewidth}
+ Department of Economics\\
+  SciencesPo\\
+28 Rue des Saints-Pères \\ 
+75007 Paris \\ 
+France \\ 
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Email: & \href{mailto:florian.oswald@sciencespo.fr}{\tt florian.oswald@sciencespo.fr} \\
+    Homepage: & \href{https://floswald.github.io}{\tt https://floswald.github.io} \\
+  \end{tabular}
+\end{minipage}
+
+
+\section*{Education}
+
+\begin{itemize}
+  \setlength{\itemindent}{26pt}
+  \item[2015:] Ph.D. Economics, University College London.
+   
+  \item[2008:] M.Sc. Economics, University College London.
+
+  \item[2006:] Diplom, International Economics and Business, University of Innsbruck.
+
+\end{itemize}
+
+
+\section*{Employment}
+
+\begin{itemize}
+  \setlength{\itemindent}{26pt}
+\item[2015:] SciencesPo, Assistant Professor of Economics
+\end{itemize}
+
+
+\section*{Publications}
+
+\begin{itemize}
+\item A test of the extreme value type I assumption in the bus engine replacement model, joint with Brad Larsen, Gregor Reich and Dan Wunderli. {\it Economics Letters, 112(2), August 2012, pages 213--216}.
+\item Recourse and Residential Mortgage Market: the Case of Nevada, joint with Wenli Li. {\it Journal of Urban Economics 101 (2017):1–13}.
+\item The effect of homeownership on the option value of regional migration. {\it Quantitative Economics, Vol. 10, 2019, pages 1453--1493}
+\item The Housing Stock, Housing Prices, and User Costs: The Roles of Location, Structure and Unobserved Quality, joint with Jonathan Halket and Lars Nesheim. {\it International Economic Review (2020) doi:10.1111/iere.12475.}
+\end{itemize}
+
+
+\section*{Working Papers}
+
+\begin{itemize}
+
+\item Structural Change, Land Use and Urban Expansion, joint with Nicolas Coeurdacier, and Marc Teigner. {\it Submitted.}
+\item Consumer Bankruptcy and Mortgage Default, joint with Costas Meghir and Wenli Li. 
+\end{itemize}
+
+\section*{Work in Progress}
+
+\begin{itemize}
+\item Fertility Across and Within Cities, joint with Nicolas Coeurdacier, Pierre-Philippe Combes and Laurent Gobillon.
+\item Bus Operator Garage Location Choices: Optimal competition or Market Segregation? With Marleen Marra.
+\item On the Welfare Impacts of Policies Addressing Climate Change along the Income Distribution. With François Le Grand, Xavier Ragot and Aurélien Saussay
+% {2014: Royal Holloway University London, PhD Mini-conference}\\
+% {2013: NBER Summer Sessions, Aggregate Implications of Micro Behaviour group}\\
+\end{itemize}
+
+\section*{Conference \& Seminar Presentations}
+
+\begin{itemize}
+  % \setlength{\itemindent}{26pt}
+\item[2022:] UC Irvine, Berlin Applied Micro Seminar    
+\item[2021:] SED Minneapolis (June), U Carlos 3 Madrid (October), Università Bocconi, Università di Pisa
+\item[2020:] Firm Location and Economic Geography @ HEC Paris, VMACS Junior conference, U Minnesota 3Ms workshop, DIW Berlin (re-scheduled), U Carlos 3 Madrid (re-scheduled), CEMFI (re-scheduled), Econometric Society World Congress Milan (virtual), EEA Congress Rotterdam (virtual), SED Barcelona (postponed to June 2021)
+\item[2019:] NYU Abu Dhabi, CREST, OECD, Central Bank of Ireland, INSEAD, DIW Berlin (scheduled), U Carlos 3 Madrid (scheduled), CEMFI (scheduled)
+\item[2018:] Toulouse School of Economics workshop on Dynamic Housing Models, GATE ENS Lyon, Financial Conduct Authority London.
+\item[2017:] Uni Lausanne Urban and Transport workshop, Chicago Fed, Barcelona GSE Summer Forum Migration, SED Edinburgh, UCL Conference on Implementation of Dynamic Models, CEMFI
+\item[2016:] Bank of England and Cemmap Housing conference, Barcelona IEB workshop on Urban Economics, EIEF Rome Junior Conference Applied Micro, SciencesPo Urban Seminar, URBAN workshop at U Copenhagen
+\item[2015:] DIW Berlin, Boston College, Chicago Fed, Stockholm School of Economics, Cambridge University, Toulouse School of Economics, Sciences Po, Bank of England, SED Warsaw, EEA Mannheim
+\item[2014:] Royal Holloway University London, PhD Mini-conference
+\item[2013:] NBER Summer Sessions, Aggregate Implications of Micro Behaviour group
+\end{itemize}
+
+
+\section*{Teaching}
+\begin{itemize}
+\item[2020:] Advanced Econometrics with R (for undergraduates), Sciences Po.
+\item[2016--2021:] Computational Economics, Sciences Po. 
+\item[2018--2020:] Introduction to Econometrics with R (Main Cours Designer), Sciences Po.
+\item[2016--2018:] Graduate Labour, Sciences Po. 
+\item[2015:] Graduate Macro, Sciences Po. 
+\item[2012:] Economics and Econometrics of Policy Evaluation (graduate), TA for Aureo de Paula, UCL. 
+\item[2012:] Maths and Stats Refresher Course (graduate), TA for Daniel Wilhelm and Suehyun Kwon, UCL. 
+\item[2011:] Economics and Econometrics of Policy Evaluation (graduate), TA for Costas Meghir, UCL. 
+\item[2011:] Maths and Stats Refresher Course (graduate), TA for Monica Costa Dias, UCL . 
+\item[2009:] Quantitative Economics and Econometrics (undergraduate), TA for Karthik Kalyanaraman, UCL. 
+\end{itemize}
+
+\section*{Grants}
+
+
+\begin{itemize}
+\item[2022--2024:] SciencesPo SAB Grant Direction Scientifique
+\item[2020:] Banque de France and Sciences Po Junior Research Grant
+\item[2018:] SciencesPo SAB Grant Direction Scientifique
+\item[2016:] Banque de France and Sciences Po Junior Research Grant
+\item[2012--2014:] The Alfred P. Sloan Foundation Research Grant
+\item[2010--2012:] DOC-fellowship of the Austrian Academy of Sciences
+\item[2009--2012:] Economic and Social Research Council Fees Scholarship
+\item[2007--2008:] Postgraduate Scholarship of the Austrian Ministry of Education and Science
+\end{itemize}
+
+\section*{Professional Service}
+
+\begin{itemize}
+\item Organized an \href{https://pasc19.pasc-conference.org/program/schedule/session/?sess=sess124}{invited session} at the Platform for Advanced Scientific Computing (PASC) Conference, June 2019 in Zurich. Speakers: Gregor Boehl, Xavier Ragot, Serguei Maliar, Ralph Luetticke.
+\item Refereed for {\it Quantitative Economics, The Review of Economic Studies, Journal of Economic Behaviour and Organization, The Economic Journal, ERC, European Economic Review, Housing Economics, International Economic Review, Journal of the European Economic Association, Journal of Econometrics, Journal of Applied Econometrics, Journal of Banking and Finance, Journal of Housing Economics, Journal of Public Economic Theory, Journal of Urban Economics, The Review of Economic Dynamics, Revue Economique, Annals of Economics and Statistics, Regional Science and Urban Economics}
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    % \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}

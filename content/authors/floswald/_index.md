@@ -56,7 +56,7 @@ social:
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: uploads/floswald.pdf
+  link: tex/floswald.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -67,4 +67,4 @@ highlight_name: false
 
 I am an Assistant Professor of Economics at SciencesPo in Paris. My work is in the fields of Housing, Urban, Macro and Labor Economics. I also like to think about computational techniques required for structural estimation of microeconometric models.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/floswald.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "tex/floswald.pdf" "newtab" >}}CV{{< /staticref >}}.
