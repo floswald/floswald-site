@@ -5,10 +5,12 @@
 
 # Appearance
 
-theme: flos
-day_night: true
-font: ''
+# theme: flos
+# font: ''
 font_size: m
+day_night: true
+show_day_night: true
+
 
 # SEO
 
