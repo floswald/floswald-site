@@ -19,13 +19,13 @@ jobs:
       with:
         submodules: true
 
-      - name: Deploy the site
-        uses: benmatselby/hugo-deploy-gh-pages@master
-        env:
-          HUGO_VERSION: 0.88.1
-          HUGO_EXTENDED: true
-          TARGET_REPO: floswald/floswald.github.io
-          TARGET_BRANCH: master
-          TOKEN: ${{ secrets.DEPLOY }}
-          HUGO_ARGS: '-t academic'
-          CNAME: floswald.github.io
+    - name: Deploy the site
+      uses: benmatselby/hugo-deploy-gh-pages@master
+      env:
+        HUGO_VERSION: 0.88.1
+        HUGO_EXTENDED: true
+        TARGET_REPO: floswald/floswald.github.io
+        TARGET_BRANCH: master
+        TOKEN: ${{ secrets.DEPLOY }}
+        HUGO_ARGS: '-t academic'
+        CNAME: floswald.github.io
